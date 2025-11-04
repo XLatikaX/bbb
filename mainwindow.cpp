@@ -38,6 +38,7 @@ MainWindow::~MainWindow()
 
 void MainWindow::initFingerDevice(QString ip1, QString ip2, int port1, int port2)
 {
+    // this test
     zk1->setControl("zkemkeeper.ZKEM.1");
     zk2->setControl("zkemkeeper.ZKEM.1");
     dev_connect(ip1,ip2,port1,port2);
